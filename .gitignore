@@ -46,3 +46,4 @@ app.*.map.json
 /android/app/release
 
 #My
+*/google-services.json
