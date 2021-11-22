@@ -1,6 +1,6 @@
 {
-    "name": "my_coffee",
-    "short_name": "my_coffee",
+    "name": "bf",
+    "short_name": "bf",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

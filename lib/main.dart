@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:my_coffee/screens/wrapper.dart';
+import 'package:bf/screens/wrapper.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:my_coffee/sevices/auth.dart';
+import 'package:bf/sevices/auth.dart';
 import 'package:provider/provider.dart';
-import 'package:my_coffee/models/user.dart';
+import 'package:bf/models/user.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

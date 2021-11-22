@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:my_coffee/models/user.dart';
-import 'package:my_coffee/sevices/database.dart';
-import 'package:my_coffee/shared/constants.dart';
-import 'package:my_coffee/shared/loading.dart';
+import 'package:bf/models/user.dart';
+import 'package:bf/sevices/database.dart';
+import 'package:bf/shared/constants.dart';
+import 'package:bf/shared/loading.dart';
 import 'package:provider/provider.dart';
 
 class SettingsForm extends StatefulWidget {
@@ -34,7 +34,7 @@ class _SettingsFormState extends State<SettingsForm> {
               child: Column(
                 children: <Widget>[
                   Text(
-                    'Update your coffee settings.',
+                    'Update your bf settings.',
                     style: TextStyle(fontSize: 18.0),
                   ),
                   SizedBox(height: 20.0),

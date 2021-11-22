@@ -1,5 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:my_coffee/models/user.dart';
+import 'package:bf/models/user.dart';
 import 'database.dart';
 
 class AuthService {

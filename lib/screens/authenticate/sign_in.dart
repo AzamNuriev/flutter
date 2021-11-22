@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:my_coffee/sevices/auth.dart';
-import 'package:my_coffee/shared/constants.dart';
-import 'package:my_coffee/shared/loading.dart';
+import 'package:bf/sevices/auth.dart';
+import 'package:bf/shared/constants.dart';
+import 'package:bf/shared/loading.dart';
 
 class SignIn extends StatefulWidget {
   final Function toggleView;
@@ -30,7 +30,7 @@ class _SignInState extends State<SignIn> {
             appBar: AppBar(
               backgroundColor: Colors.brown[400],
               elevation: 0.0,
-              title: Text('SignIn in My coffee'),
+              title: Text('SignIn in My bf'),
               actions: <Widget>[
                 FlatButton.icon(
                     icon: Icon(Icons.person),
