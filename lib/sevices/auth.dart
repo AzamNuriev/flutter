@@ -5,14 +5,14 @@ import 'database.dart';
 class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
-  MyUser? _userFromFirebaseUser(User user) {
+  MyUser? _userFromFirebaseUser(User? user) {
     return user != null ? MyUser(uid: user.uid) : null;
   }
 
   Stream<MyUser?> get user {
     return _auth
         .authStateChanges()
-        .map((User? user) => _userFromFirebaseUser(user!));
+        .map((User? user) => _userFromFirebaseUser(user));
   }
 
   // sign in anon
